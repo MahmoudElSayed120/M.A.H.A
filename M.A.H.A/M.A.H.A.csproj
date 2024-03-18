@@ -88,14 +88,21 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminView.resx">
+      <DependentUpon>AdminView.cs</DependentUpon>
+    </EmbeddedResource>
+    </EmbeddedResource>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateAccounts.resx">
       <DependentUpon>CreateAccounts.cs</DependentUpon>
     </EmbeddedResource>
+	  <EmbeddedResource Include="LoginForm.resx">
+	  </EmbeddedResource>
+      <DependentUpon>LoginForm.cs</DependentUpon>
+=======
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+>>>>>>> 2b31c8c7af90ae8a5525538709fa09b5a30496ed
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
