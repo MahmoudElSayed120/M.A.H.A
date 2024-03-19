@@ -199,7 +199,7 @@ namespace M.A.H.A
             double Salary = double.Parse(Salary_box.Text);
             string Specialization = Specialization_box.Text;
             int YearsOfExperience = int.Parse(YrsExp_box.Text);
-
+            //this is a comment
             string query = @"BEGIN TRANSACTION;
                  INSERT INTO Employee (Name, SSN, BirthDate, Nationality, 
                                       PhoneNumber, Email, Address, 
